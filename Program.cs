@@ -35,10 +35,9 @@ namespace PersonList
 
         }
 
+
         // Creating a Person Class, with the Strings for Name and Age
         // with a Constructor to take then values from input
-
-
         public class Person
         {
 
@@ -60,6 +59,8 @@ namespace PersonList
 
         }
 
+        // In AddPerson, we add the 3 people by taking input, saving to Variables 
+        // Saving them to the ArrayList, via the Object Class Person (and ToString method).
         public static void addPerson(ArrayList persons)
         {
             Console.WriteLine("Skriva namn på person 1: ");
